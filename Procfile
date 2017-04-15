@@ -1,1 +1,1 @@
-web: python ciscohack.py
+web: gunicorn gettingstarted.wsgi --log-file -
